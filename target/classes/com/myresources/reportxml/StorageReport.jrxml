@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="StorageReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="161e198f-5506-4c13-9023-f626defc9dd3">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="Store_Id" class="java.lang.String"/>
+	<field name="Food_Id" class="java.lang.String"/>
+	<field name="Food_Name" class="java.lang.String"/>
+	<field name="Food_Category" class="java.lang.String"/>
+	<field name="Mfd" class="java.lang.String"/>
+	<field name="Exp" class="java.lang.String"/>
+	<field name="Qty" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="80" height="30" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="3fba3563-eb8b-4031-a00b-b378b3a5a9f6">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="14" isBold="true"/>
+					<paragraph firstLineIndent="0" leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Rag]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="20" splitType="Stretch">
+			<rectangle>
+				<reportElement mode="Opaque" x="0" y="0" width="560" height="20" backcolor="#3A4E7A" uuid="f24a95f4-0d72-4be1-a8d9-e8c202f4e7f7"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="230" y="3" width="100" height="14" forecolor="#FFFFFF" uuid="8466335e-dd97-45d7-b534-661a934dd91a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Storage Record]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="15" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="60" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="a57a64d6-1717-452c-85ff-b8d58b4be9f5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0ae6a22d-16e3-47f2-a06b-4150cc232ae2"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Store_Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="60" y="0" width="60" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="477c7975-a21b-4708-a0b5-1f193dbb6f55">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7f90a319-f612-4322-9175-cad6cdba3f52"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Food_Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="120" y="0" width="100" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="af8bf578-c284-4e47-9c0c-fbb6806efc48">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="497f1289-b72d-4d43-8442-d522beede2c5"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Food_Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="220" y="0" width="100" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="d22e7570-896b-4df9-929f-6dca889909bb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="647a74f8-0588-45db-a1ca-e7756b03b348"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Food_Category]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="320" y="0" width="90" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="9192b38f-a144-4697-a15e-35af38f505d3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="39ec7fdd-ea11-43d2-9a22-63951ae7db86"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Mfd]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="410" y="0" width="90" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="a40ec0e2-7eac-4bd2-bbb6-e05f470a086a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="cf5d215a-5f69-4cf3-91cb-afa2485228c8"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Exp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="500" y="0" width="60" height="15" forecolor="#FFFFFF" backcolor="#5E83BA" uuid="9f8c4cbe-0100-4f44-9a59-643b7674c5e3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b4d1d038-f53e-401d-bc0b-0562b252625e"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[Qty]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="0" width="60" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="7b2a94f4-84d0-4c16-be4c-befd9f159690">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0ae6a22d-16e3-47f2-a06b-4150cc232ae2"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Store_Id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="60" y="0" width="60" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="ffdb5d8c-9608-4319-8b01-680b4274d662">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7f90a319-f612-4322-9175-cad6cdba3f52"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Food_Id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="120" y="0" width="100" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="833d1fa2-95a1-4683-9ac6-6a150f9751e7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="497f1289-b72d-4d43-8442-d522beede2c5"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Food_Name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="220" y="0" width="100" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="577aecb0-206d-4f0b-b37e-c1b951f27271">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="647a74f8-0588-45db-a1ca-e7756b03b348"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Food_Category}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="320" y="0" width="90" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="36c5ae48-81ce-4b05-a096-94c6e9795ae4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="39ec7fdd-ea11-43d2-9a22-63951ae7db86"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Mfd}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="410" y="0" width="90" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="54e95fa2-26e1-4549-8c98-6d8c851e1de5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="cf5d215a-5f69-4cf3-91cb-afa2485228c8"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Exp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="500" y="0" width="60" height="15" forecolor="#FFFFFF" backcolor="#3A4E7A" uuid="f8263438-6f57-4475-8592-434c36f28524">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b4d1d038-f53e-401d-bc0b-0562b252625e"/>
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Qty}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
