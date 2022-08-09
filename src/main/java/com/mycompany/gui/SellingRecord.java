@@ -483,7 +483,7 @@ public class SellingRecord extends javax.swing.JFrame {
         try {
             TableModel tm1 = jt.getModel();
             //String jasperPath = "src//reportXML//customerOrder.jrxml";
-            InputStream jasperPathStream = getClass().getResourceAsStream("/reportXML/SellingHistory.jrxml");
+            InputStream jasperPathStream = getClass().getResourceAsStream("/reportxml/SellingHistory.jrxml");
             JasperReport jr = JasperCompileManager.compileReport(jasperPathStream);
             HashMap<String, Object> hm = new HashMap<String, Object>();
 

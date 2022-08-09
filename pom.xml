@@ -15,11 +15,7 @@
 <!-- https://mvnrepository.com/artifact/org.jdesktop/timingframework -->
 
 <!-- https://mvnrepository.com/artifact/org.jdesktop/timingframework -->
-<dependency>
-    <groupId>org.jdesktop</groupId>
-    <artifactId>timingframework</artifactId>
-    <version>0.5.4</version>
-</dependency>
+
 
 <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
 <dependency>

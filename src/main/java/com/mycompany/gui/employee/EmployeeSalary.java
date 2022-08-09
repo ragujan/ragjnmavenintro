@@ -563,7 +563,7 @@ public class EmployeeSalary extends javax.swing.JFrame {
         try {
             TableModel tm1 = jt.getModel();
             //String jasperPath = "src//reportXML//customerOrder.jrxml";
-            InputStream jasperPathStream = getClass().getResourceAsStream("/reportXML/employeeSalary.jrxml");
+            InputStream jasperPathStream = getClass().getResourceAsStream("/reportxml/employeeSalary.jrxml");
             JasperReport jr = JasperCompileManager.compileReport(jasperPathStream);
             HashMap<String, Object> hm = new HashMap<String, Object>();
             hm.put("UniqueID", v.get(0).toString());

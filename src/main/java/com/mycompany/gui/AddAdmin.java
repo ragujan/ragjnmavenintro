@@ -162,7 +162,7 @@ public class AddAdmin extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         customButton1 = new frameutil.CustomButton();
-        textF1 = new frameutil.TextF();
+        textF1 = new com.mycompany.frameutil.TextF();
         jPasswordField1 = new javax.swing.JPasswordField();
         jLabel17 = new javax.swing.JLabel();
         customButton2 = new frameutil.CustomButton();
@@ -550,6 +550,6 @@ public class AddAdmin extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
+    private com.mycompany.frameutil.TextF textF1;
     // End of variables declaration//GEN-END:variables
 }

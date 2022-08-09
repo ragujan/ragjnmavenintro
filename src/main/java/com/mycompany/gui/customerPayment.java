@@ -169,7 +169,7 @@ import net.sf.jasperreports.view.JasperViewer;
         try {
             TableModel tm1 = jt.getModel();
             //String jasperPath = "src//reportXML//customerOrder.jrxml";
-            InputStream jasperPathStream = getClass().getResourceAsStream("/reportXML/orderpayment.jrxml");
+            InputStream jasperPathStream = getClass().getResourceAsStream("/reportxml/orderpayment.jrxml");
             JasperReport jr = JasperCompileManager.compileReport(jasperPathStream);
             HashMap<String, Object> hm = new HashMap<String, Object>();
             hm.put("UniqueId", v.get(0).toString());

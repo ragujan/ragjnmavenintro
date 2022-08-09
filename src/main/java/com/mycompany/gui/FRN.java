@@ -204,7 +204,7 @@ public class FRN extends javax.swing.JFrame {
         try {
             TableModel tm1 = jt.getModel();
             // String jasperPath = "src//reportXML//Blank_A4.jrxml";
-            InputStream jasperPathStream = getClass().getResourceAsStream("/reportXML/Blank_A4.jrxml");
+            InputStream jasperPathStream = getClass().getResourceAsStream("/reportxml/Blank_A4.jrxml");
             JasperReport jr = JasperCompileManager.compileReport(jasperPathStream);
             HashMap<String, Object> hm = new HashMap<String, Object>();
             hm.put("Dealer", v.get(0).toString());

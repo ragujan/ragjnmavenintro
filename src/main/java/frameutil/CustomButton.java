@@ -14,10 +14,10 @@ import java.awt.geom.Area;
 import java.awt.geom.RoundRectangle2D;
 import javax.swing.JButton;
 import javax.swing.border.EmptyBorder;
-import org.jdesktop.animation.timing.Animator;
-import org.jdesktop.animation.timing.TimingTarget;
-import org.jdesktop.animation.timing.TimingTargetAdapter;
-import org.jdesktop.animation.timing.interpolation.PropertySetter;
+//import org.jdesktop.animation.timing.Animator;
+//import org.jdesktop.animation.timing.TimingTarget;
+//import org.jdesktop.animation.timing.TimingTargetAdapter;
+//import org.jdesktop.animation.timing.interpolation.PropertySetter;
 
 /**
  *
@@ -32,8 +32,8 @@ public class CustomButton extends JButton {
     public void setStyle(ButtonStyle style) {
         if (this.style != style) {
             this.style = style;
-            animationHover.stop();
-            animationPress.stop();
+          //  animationHover.stop();
+          //  animationPress.stop();
             currentStyle.changeStyle(style);
             setForeground(style.foreground);
         }
@@ -48,8 +48,8 @@ public class CustomButton extends JButton {
         repaint();
     }
 
-    private AnimationStyle animationHover;
-    private AnimationStyle animationPress;
+//    private AnimationStyle animationHover;
+//    private AnimationStyle animationPress;
     private ButtonStyle style = ButtonStyle.PRIMARY;
     private ButtonColor currentStyle = new ButtonColor(ButtonStyle.PRIMARY);
     private int round = 5;
@@ -58,46 +58,46 @@ public class CustomButton extends JButton {
         setContentAreaFilled(false);
         setBorder(new EmptyBorder(8, 8, 8, 8));
         setForeground(Color.WHITE);
-        initAnimation();
+       //initAnimation();
         addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent me) {
-                animationHover.start(currentStyle.backgroundHover, getStyle().backgroundHover);
+              //  animationHover.start(currentStyle.backgroundHover, getStyle().backgroundHover);
             }
 
             @Override
             public void mouseExited(MouseEvent me) {
-                animationHover.start(currentStyle.backgroundHover, getStyle().background);
+              //  animationHover.start(currentStyle.backgroundHover, getStyle().background);
             }
 
             @Override
             public void mousePressed(MouseEvent me) {
-                animationPress.start(currentStyle.background, getStyle().backgroundPress);
+              //  animationPress.start(currentStyle.background, getStyle().backgroundPress);
             }
 
             @Override
             public void mouseReleased(MouseEvent me) {
-                animationPress.start(currentStyle.background, getStyle().background);
+              //  animationPress.start(currentStyle.background, getStyle().background);
             }
         });
     }
 
-    private void initAnimation() {
-        animationHover = new AnimationStyle(300, currentStyle, "backgroundHover");
-        animationHover.addTarget(new TimingTargetAdapter() {
-            @Override
-            public void timingEvent(float fraction) {
-                repaint();
-            }
-        });
-        animationPress = new AnimationStyle(200, currentStyle, "background");
-        animationPress.addTarget(new TimingTargetAdapter() {
-            @Override
-            public void timingEvent(float fraction) {
-                repaint();
-            }
-        });
-    }
+//    private void initAnimation() {
+//        animationHover = new AnimationStyle(300, currentStyle, "backgroundHover");
+//        animationHover.addTarget(new TimingTargetAdapter() {
+//            @Override
+//            public void timingEvent(float fraction) {
+//                repaint();
+//            }
+//        });
+//        animationPress = new AnimationStyle(200, currentStyle, "background");
+//        animationPress.addTarget(new TimingTargetAdapter() {
+//            @Override
+//            public void timingEvent(float fraction) {
+//                repaint();
+//            }
+//        });
+//    }
 
     @Override
     protected void paintComponent(Graphics grphcs) {
@@ -188,36 +188,36 @@ public class CustomButton extends JButton {
         }
     }
 
-    private class AnimationStyle {
-
-        private final Animator animator;
-        private final ButtonColor style;
-        private final String property;
-        private TimingTarget target;
-
-        public AnimationStyle(int duration, ButtonColor style, String property) {
-            this.style = style;
-            this.property = property;
-            this.animator = new Animator(duration);
-            this.animator.setResolution(1);
-        }
-
-        public void start(Color... colors) {
-            stop();
-            animator.removeTarget(target);
-            target = new PropertySetter(style, property, colors);
-            animator.addTarget(target);
-            animator.start();
-        }
-
-        public void addTarget(TimingTarget target) {
-            animator.addTarget(target);
-        }
-
-        public void stop() {
-            if (animator.isRunning()) {
-                animator.stop();
-            }
-        }
-    }
+//    private class AnimationStyle {
+//
+//        private final Animator animator;
+//        private final ButtonColor style;
+//        private final String property;
+////        private TimingTarget target;
+//
+//        public AnimationStyle(int duration, ButtonColor style, String property) {
+//            this.style = style;
+//            this.property = property;
+//            this.animator = new Animator(duration);
+//            this.animator.setResolution(1);
+//        }
+//
+//        public void start(Color... colors) {
+//            stop();
+//            animator.removeTarget(target);
+//            target = new PropertySetter(style, property, colors);
+//            animator.addTarget(target);
+//            animator.start();
+//        }
+//
+//        public void addTarget(TimingTarget target) {
+//            animator.addTarget(target);
+//        }
+//
+//        public void stop() {
+//            if (animator.isRunning()) {
+//                animator.stop();
+//            }
+//        }
+//    }
 }

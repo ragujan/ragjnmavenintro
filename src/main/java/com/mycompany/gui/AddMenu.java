@@ -33,6 +33,7 @@ import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import com.mycompany.model.MySql;
+import frameutil.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

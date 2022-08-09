@@ -15,9 +15,9 @@ import javax.swing.JTabbedPane;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.plaf.metal.MetalTabbedPaneUI;
-import org.jdesktop.animation.timing.Animator;
-import org.jdesktop.animation.timing.TimingTarget;
-import org.jdesktop.animation.timing.interpolation.PropertySetter;
+//import org.jdesktop.animation.timing.Animator;
+//import org.jdesktop.animation.timing.TimingTarget;
+//import org.jdesktop.animation.timing.interpolation.PropertySetter;
 
 class MaterialPanel extends JTabbedPane {
 
@@ -32,9 +32,9 @@ class MaterialPanel extends JTabbedPane {
             repaint();
         }
 
-        private Animator animator;
+       // private Animator animator;
         private Rectangle currentRectangle;
-        private TimingTarget target;
+      //  private TimingTarget target;
 
         public MaterialPanelUI() {
         }
@@ -42,25 +42,25 @@ class MaterialPanel extends JTabbedPane {
         @Override
         public void installUI(JComponent jc) {
             super.installUI(jc);
-            animator = new Animator(500);
-            animator.setResolution(0);
-            animator.setAcceleration(.5f);
-            animator.setDeceleration(.5f);
+//            animator = new Animator(500);
+//            animator.setResolution(0);
+//            animator.setAcceleration(.5f);
+//            animator.setDeceleration(.5f);
             tabPane.addChangeListener(new ChangeListener() {
                 @Override
                 public void stateChanged(ChangeEvent ce) {
                     int selected = tabPane.getSelectedIndex();
-                    if (selected != -1) {
-                        if (currentRectangle != null) {
-                            if (animator.isRunning()) {
-                                animator.stop();
-                            }
-                            animator.removeTarget(target);
-                            target = new PropertySetter(MaterialPanelUI.this, "currentRectangle", currentRectangle, getTabBounds(selected, calcRect));
-                            animator.addTarget(target);
-                            animator.start();
-                        }
-                    }
+//                    if (selected != -1) {
+//                        if (currentRectangle != null) {
+//                            if (animator.isRunning()) {
+//                                animator.stop();
+//                            }
+//                            animator.removeTarget(target);
+//                            target = new PropertySetter(MaterialPanelUI.this, "currentRectangle", currentRectangle, getTabBounds(selected, calcRect));
+//                            animator.addTarget(target);
+//                            animator.start();
+//                        }
+//                    }
                 }
             });
         }
@@ -75,11 +75,13 @@ class MaterialPanel extends JTabbedPane {
             Graphics2D g2 = (Graphics2D) grphcs.create();
             g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
             g2.setColor(new Color(3, 155, 216));
-            if (currentRectangle == null || !animator.isRunning()) {
-                if (isSelected) {
-                    currentRectangle = new Rectangle(x, y, w, h);
-                }
-            }
+            
+            
+//            if (currentRectangle == null || !animator.isRunning()) {
+//                if (isSelected) {
+//                    currentRectangle = new Rectangle(x, y, w, h);
+//                }
+//            }
             if (currentRectangle != null) {
                 if (tabPlacement == TOP) {
                     g2.fillRect(currentRectangle.x, currentRectangle.y + currentRectangle.height - 3, currentRectangle.width, 3);

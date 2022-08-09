@@ -145,7 +145,7 @@ public class CustomerOrder extends javax.swing.JFrame {
         try {
             TableModel tm1 = jt.getModel();
             //String jasperPath = "src//reportXML//customerOrder.jrxml";
-            InputStream jasperPathStream = getClass().getResourceAsStream("/reportXML/customerOrder.jrxml");
+            InputStream jasperPathStream = getClass().getResourceAsStream("/reportxml/customerOrder.jrxml");
             JasperReport jr = JasperCompileManager.compileReport(jasperPathStream);
             HashMap<String, Object> hm = new HashMap<String, Object>();
             hm.put("ServerID", v.get(0).toString());
