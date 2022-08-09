@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>ragjnmavenintro</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+        <!-- https://mvnrepository.com/artifact/net.java.timingframework/timingframework-swing -->
+
+<!-- https://mvnrepository.com/artifact/net.java.timingframework/timingframework-swing -->
+
+<!-- https://mvnrepository.com/artifact/net.java.timingframework/timingframework-swing -->
+<!-- https://mvnrepository.com/artifact/org.jdesktop/timingframework -->
+<!-- https://mvnrepository.com/artifact/org.jdesktop/timingframework -->
+
+<!-- https://mvnrepository.com/artifact/org.jdesktop/timingframework -->
+<dependency>
+    <groupId>org.jdesktop</groupId>
+    <artifactId>timingframework</artifactId>
+    <version>0.5.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+<dependency>
+    <groupId>net.sf.jasperreports</groupId>
+    <artifactId>jasperreports</artifactId>
+    <version>6.20.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.toedter/jcalendar -->
+<dependency>
+    <groupId>com.toedter</groupId>
+    <artifactId>jcalendar</artifactId>
+    <version>1.4</version>
+</dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.toedter/jcalendar -->
+
+<!-- https://mvnrepository.com/artifact/net.sourceforge.barbecue/barbecue -->
+
+
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+        <exec.mainClass>com.mycompany.ragjnmavenintro.Ragjnmavenintro</exec.mainClass>
+    </properties>
+</project>
