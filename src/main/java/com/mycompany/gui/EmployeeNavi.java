@@ -15,9 +15,12 @@ import com.mycompany.gui.employee.EmployeeSalary;
 import com.mycompany.gui.employee.EmployeeT;
 import com.mycompany.gui.employee.Server;
 import com.mycompany.util.CreateObject;
-import com.mycompany.frameutil.*;
 import com.mycompany.frameutil.MainTheme;
-import com.mycompany.frameutil.RoundedPanel;
+import com.mycompany.util.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
+
 import java.awt.Color;
 import java.awt.event.WindowEvent;
 import java.awt.geom.RoundRectangle2D;
@@ -93,19 +96,19 @@ public class EmployeeNavi extends javax.swing.JDialog {
         jLabel1 = new javax.swing.JLabel();
         closeLabel = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
-        customButton3 = new frameutil.CustomButton();
-        customButton4 = new frameutil.CustomButton();
-        customButton5 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
-        customButton7 = new frameutil.CustomButton();
-        customButton8 = new frameutil.CustomButton();
-        customButton9 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
+        customButton3 = new CustomButton();
+        customButton4 = new CustomButton();
+        customButton5 = new CustomButton();
+        customButton6 = new CustomButton();
+        customButton7 = new CustomButton();
+        customButton8 = new CustomButton();
+        customButton9 = new CustomButton();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        customButton10 = new frameutil.CustomButton();
-        menuBar1 = new frameutil.MenuBar();
+        customButton10 = new CustomButton();
+        menuBar1 = new MenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -504,21 +507,21 @@ public class EmployeeNavi extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton10;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomButton customButton7;
-    private frameutil.CustomButton customButton8;
-    private frameutil.CustomButton customButton9;
+    private CustomButton customButton1;
+    private CustomButton customButton10;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomButton customButton7;
+    private CustomButton customButton8;
+    private CustomButton customButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
     // End of variables declaration//GEN-END:variables

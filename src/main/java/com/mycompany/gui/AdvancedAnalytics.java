@@ -1,15 +1,9 @@
 package com.mycompany.gui;
 
-import com.mycompany.util.CreateObject;
-import com.mycompany.util.FilterDocRagRegex;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.PanelRemover;
-import com.mycompany.util.SearchTable;
-import com.mycompany.util.SetEmptyItems;
+import com.mycompany.frameutil.*;
+import com.mycompany.util.*;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -23,6 +17,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -370,41 +365,41 @@ public class AdvancedAnalytics extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        textF11 = new frameutil.TextF();
+        textF11 = new TextF();;
         jDateChooser4 = new com.toedter.calendar.JDateChooser();
-        textF10 = new frameutil.TextF();
+        textF10 = new TextF();;
         jDateChooser3 = new com.toedter.calendar.JDateChooser();
-        customButton1 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        comboBox2 = new frameutil.ComboBox<>();
+        comboBox2 = new ComboBox<>();
         jLabel17 = new javax.swing.JLabel();
-        textF12 = new frameutil.TextF();
+        textF12 = new TextF();;
         jPanel3 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jDateChooser5 = new com.toedter.calendar.JDateChooser();
-        textF13 = new frameutil.TextF();
-        textF14 = new frameutil.TextF();
+        textF13 = new TextF();;
+        textF14 = new TextF();;
         jLabel22 = new javax.swing.JLabel();
         jDateChooser6 = new com.toedter.calendar.JDateChooser();
-        comboBox3 = new frameutil.ComboBox<>();
+        comboBox3 = new ComboBox<>();
         jLabel18 = new javax.swing.JLabel();
-        customButton2 = new frameutil.CustomButton();
-        textF15 = new frameutil.TextF();
+        customButton2 = new CustomButton();
+        textF15 = new TextF();;
         jPanel5 = new javax.swing.JPanel();
         jDateChooser7 = new com.toedter.calendar.JDateChooser();
-        textF16 = new frameutil.TextF();
-        textF17 = new frameutil.TextF();
+        textF16 = new TextF();;
+        textF17 = new TextF();;
         jDateChooser8 = new com.toedter.calendar.JDateChooser();
         jLabel24 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        customButton3 = new frameutil.CustomButton();
-        textF18 = new frameutil.TextF();
-        textF20 = new frameutil.TextF();
-        customButton4 = new frameutil.CustomButton();
+        customButton3 = new CustomButton();
+        textF18 = new TextF();;
+        textF20 = new TextF();;
+        customButton4 = new CustomButton();
         jPanel6 = new javax.swing.JPanel();
-        comboBox1 = new frameutil.ComboBox();
-        menuBar1 = new frameutil.MenuBar();
+        comboBox1 = new ComboBox();
+        menuBar1 = new MenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -1517,13 +1512,13 @@ public class AdvancedAnalytics extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.ComboBox<String> comboBox3;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
+    private ComboBox comboBox1;
+    private ComboBox<String> comboBox2;
+    private ComboBox<String> comboBox3;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
     private com.toedter.calendar.JDateChooser jDateChooser3;
     private com.toedter.calendar.JDateChooser jDateChooser4;
     private com.toedter.calendar.JDateChooser jDateChooser5;
@@ -1546,19 +1541,19 @@ public class AdvancedAnalytics extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    public frameutil.TextF textF10;
-    public frameutil.TextF textF11;
-    public frameutil.TextF textF12;
-    public frameutil.TextF textF13;
-    public frameutil.TextF textF14;
-    public frameutil.TextF textF15;
-    public frameutil.TextF textF16;
-    public frameutil.TextF textF17;
-    public frameutil.TextF textF18;
-    public frameutil.TextF textF20;
+    public TextF textF10;
+    public TextF textF11;
+    public TextF textF12;
+    public TextF textF13;
+    public TextF textF14;
+    public TextF textF15;
+    public TextF textF16;
+    public TextF textF17;
+    public TextF textF18;
+    public TextF textF20;
     // End of variables declaration//GEN-END:variables
 }

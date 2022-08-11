@@ -1,11 +1,8 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
 import com.mycompany.util.CreateObject;
-import com.mycompany.frameutil.AdminView;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
 
 import java.awt.event.ActionEvent;
 import java.awt.geom.RoundRectangle2D;
@@ -20,6 +17,10 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.filechooser.FileSystemView;
 import com.mycompany.model.MySql;
+import com.mycompany.util.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -192,20 +193,20 @@ public class AdminWorks extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        customButton2 = new frameutil.CustomButton();
-        customButton4 = new frameutil.CustomButton();
+        customButton2 = new CustomButton();
+        customButton4 = new CustomButton();
         jLabel4 = new javax.swing.JLabel();
-        menuBar1 = new frameutil.MenuBar();
+        menuBar1 = new MenuBar();
         jPanel4 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
-        customButton5 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
+        customButton5 = new CustomButton();
+        customButton6 = new CustomButton();
         jPanel5 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
-        customButton7 = new frameutil.CustomButton();
+        customButton7 = new CustomButton();
         jTextField1 = new javax.swing.JTextField();
 
         jToggleButton1.setText("jToggleButton1");
@@ -727,12 +728,12 @@ public class AdminWorks extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomButton customButton7;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomButton customButton7;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -745,7 +746,7 @@ public class AdminWorks extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;

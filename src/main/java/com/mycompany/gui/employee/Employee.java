@@ -1,13 +1,7 @@
 package com.mycompany.gui.employee;
 
-import com.mycompany.util.BasicValidator;
-import com.mycompany.util.FilterDocRagRegex;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.SetEmptyItems;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.frameutil.*;
+import com.mycompany.util.*;
 import com.mycompany.gui.Message;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -22,6 +16,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -346,27 +341,27 @@ public class Employee extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
-        textF2 = new frameutil.TextF();
-        textF3 = new frameutil.TextF();
-        textF5 = new frameutil.TextF();
-        textF6 = new frameutil.TextF();
+        textF1 = new TextF();;
+        textF2 = new TextF();;
+        textF3 = new TextF();;
+        textF5 = new TextF();;
+        textF6 = new TextF();;
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        comboBox4 = new frameutil.ComboBox<String>();
+        comboBox4 = new ComboBox<String>();
         jLabel10 = new javax.swing.JLabel();
-        textF4 = new frameutil.TextF();
+        textF4 = new TextF();;
         jLabel5 = new javax.swing.JLabel();
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
-        comboBox1 = new frameutil.ComboBox<String>();
+        comboBox1 = new ComboBox<String>();
         jLabel6 = new javax.swing.JLabel();
-        comboBox2 = new frameutil.ComboBox<String>();
+        comboBox2 = new ComboBox<String>();
         jLabel7 = new javax.swing.JLabel();
-        customButton3 = new frameutil.CustomButton();
+        customButton3 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton4 = new frameutil.CustomButton();
-        employeeMenuBar1 = new frameutil.EmployeeMenuBar();
+        customButton1 = new CustomButton();
+        customButton4 = new CustomButton();
+        employeeMenuBar1 = new EmployeeMenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -933,13 +928,13 @@ public class Employee extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.ComboBox<String> comboBox4;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.EmployeeMenuBar employeeMenuBar1;
+    private ComboBox<String> comboBox1;
+    private ComboBox<String> comboBox2;
+    private ComboBox<String> comboBox4;
+    private CustomButton customButton1;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private EmployeeMenuBar employeeMenuBar1;
     private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -958,11 +953,11 @@ public class Employee extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF2;
-    private frameutil.TextF textF3;
-    private frameutil.TextF textF4;
-    private frameutil.TextF textF5;
-    private frameutil.TextF textF6;
+    private TextF textF1;
+    private TextF textF2;
+    private TextF textF3;
+    private TextF textF4;
+    private TextF textF5;
+    private TextF textF6;
     // End of variables declaration//GEN-END:variables
 }

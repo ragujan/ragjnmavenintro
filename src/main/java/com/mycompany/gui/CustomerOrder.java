@@ -1,18 +1,10 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
 import com.mycompany.gui.employee.Server;
-import com.mycompany.util.CreateObject;
-import com.mycompany.util.FilterDocRagRegex;
-import com.mycompany.util.GetIdSingle;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.RemoveTRows;
-import com.mycompany.util.SetEmptyItems;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
-import com.mycompany.frameutil.OptionMessageLegit;
+import com.mycompany.util.*;
+
 import java.awt.geom.RoundRectangle2D;
 import java.io.InputStream;
 import java.sql.ResultSet;
@@ -32,6 +24,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 import net.sf.jasperreports.engine.JREmptyDataSource;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
@@ -389,30 +382,30 @@ public class CustomerOrder extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        customButton11 = new frameutil.CustomButton();
-        textF3 = new frameutil.TextF();
-        textF4 = new frameutil.TextF();
+        customButton11 = new CustomButton();
+        textF3 = new TextF();;
+        textF4 = new TextF();;
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        textF5 = new frameutil.TextF();
-        textF6 = new frameutil.TextF();
+        textF5 = new TextF();;
+        textF6 = new TextF();;
         jLabel13 = new javax.swing.JLabel();
-        customButton12 = new frameutil.CustomButton();
+        customButton12 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
-        textF1 = new frameutil.TextF();
-        textF2 = new frameutil.TextF();
-        customButton10 = new frameutil.CustomButton();
+        textF1 = new TextF();;
+        textF2 = new TextF();;
+        customButton10 = new CustomButton();
         jLabel9 = new javax.swing.JLabel();
-        comboBox4 = new frameutil.ComboBox<>();
+        comboBox4 = new ComboBox<>();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
+        customTable1 = new CustomTable();
         jPanel6 = new javax.swing.JPanel();
-        textF7 = new frameutil.TextF();
+        textF7 = new TextF();;
         jLabel14 = new javax.swing.JLabel();
-        customButton13 = new frameutil.CustomButton();
-        menuBar1 = new frameutil.MenuBar();
+        customButton13 = new CustomButton();
+        menuBar1 = new MenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -965,12 +958,12 @@ public class CustomerOrder extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox4;
-    private frameutil.CustomButton customButton10;
-    private frameutil.CustomButton customButton11;
-    private frameutil.CustomButton customButton12;
-    private frameutil.CustomButton customButton13;
-    private frameutil.CustomTable customTable1;
+    private ComboBox<String> comboBox4;
+    private CustomButton customButton10;
+    private CustomButton customButton11;
+    private CustomButton customButton12;
+    private CustomButton customButton13;
+    private CustomTable customTable1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -986,16 +979,16 @@ public class CustomerOrder extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    public frameutil.TextF textF1;
-    public frameutil.TextF textF2;
-    public frameutil.TextF textF3;
-    public frameutil.TextF textF4;
-    public frameutil.TextF textF5;
-    public frameutil.TextF textF6;
-    public frameutil.TextF textF7;
+    public TextF textF1;
+    public TextF textF2;
+    public TextF textF3;
+    public TextF textF4;
+    public TextF textF5;
+    public TextF textF6;
+    public TextF textF7;
     // End of variables declaration//GEN-END:variables
 }

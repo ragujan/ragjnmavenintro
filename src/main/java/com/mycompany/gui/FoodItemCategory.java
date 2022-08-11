@@ -1,19 +1,8 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.util.ColorSetter;
-import com.mycompany.util.GetIdSingle;
-import com.mycompany.util.IdCheck;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.PanelRemover;
-import com.mycompany.util.SearchTable;
-import com.mycompany.util.SetEmptyItems;
-import com.mycompany.util.TableListenerAbs;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.util.*;
 
 import java.awt.geom.RoundRectangle2D;
 import java.text.SimpleDateFormat;
@@ -24,6 +13,7 @@ import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -236,17 +226,17 @@ class FoodItemCategory extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        textF1 = new frameutil.TextF();
+        textF1 = new TextF();;
         jLabel2 = new javax.swing.JLabel();
-        comboBox1 = new frameutil.ComboBox<>();
+        comboBox1 = new ComboBox<>();
         jLabel3 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        foodMenuBar1 = new frameutil.FoodMenuBar();
+        customTable1 = new CustomTable();
+        foodMenuBar1 = new FoodMenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -640,11 +630,11 @@ class FoodItemCategory extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomTable customTable1;
-    private frameutil.FoodMenuBar foodMenuBar1;
+    private ComboBox<String> comboBox1;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomTable customTable1;
+    private FoodMenuBar foodMenuBar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -657,6 +647,6 @@ class FoodItemCategory extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
+    private TextF textF1;
     // End of variables declaration//GEN-END:variables
 }

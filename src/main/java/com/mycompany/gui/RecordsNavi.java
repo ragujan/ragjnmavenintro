@@ -1,10 +1,9 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.util.CreateObject;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,6 +14,10 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import com.mycompany.model.MySql;
+import com.mycompany.util.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -141,10 +144,10 @@ public class RecordsNavi extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton3 = new frameutil.CustomButton();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
-        menuBar1 = new frameutil.MenuBar();
+        customButton3 = new CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
+        menuBar1 = new MenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -555,14 +558,14 @@ public class RecordsNavi extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;

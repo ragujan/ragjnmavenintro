@@ -6,6 +6,9 @@ package com.mycompany.frameutil;
 
 import com.mycompany.util.LoadTables;
 import com.mycompany.util.SearchTable;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.CustomTable;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
 
 import java.awt.event.WindowEvent;
 import java.awt.geom.RoundRectangle2D;
@@ -113,9 +116,9 @@ public abstract class AdminView extends javax.swing.JDialog {
         roundedPanel2 = new RoundedPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
+        customTable1 = new CustomTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -324,8 +327,8 @@ public abstract class AdminView extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomTable customTable1;
+    private CustomButton customButton1;
+    private CustomTable customTable1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;

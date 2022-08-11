@@ -1,8 +1,9 @@
 package com.mycompany.gui;
 
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.frameutil.MainTheme;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -148,7 +149,7 @@ public class Template extends javax.swing.JFrame {
         miniLabel = new javax.swing.JLabel();
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        menuBar1 = new frameutil.MenuBar();
+        menuBar1 = new MenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -391,7 +392,7 @@ public class Template extends javax.swing.JFrame {
     private javax.swing.JLabel closeLabel;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;

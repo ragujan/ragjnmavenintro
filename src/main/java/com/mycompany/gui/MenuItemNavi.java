@@ -1,9 +1,10 @@
 package com.mycompany.gui;
 
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
 import com.mycompany.util.CreateObject;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.frameutil.MainTheme;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -144,8 +145,8 @@ public class MenuItemNavi extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton3 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
+        customButton3 = new CustomButton();
+        customButton2 = new CustomButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
 
@@ -580,8 +581,8 @@ public class MenuItemNavi extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;

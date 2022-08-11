@@ -1,8 +1,9 @@
 package com.mycompany;
 
-import com.mycompany.frameutil.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.frameutil.MainTheme;
-import com.mycompany.frameutil.RoundedPanel;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
 import com.mycompany.gui.*;
 import com.mycompany.gui.employee.Chef;
 import com.mycompany.gui.employee.Supplier;
@@ -144,14 +145,14 @@ public class App extends JFrame {
         boxLabel = new JLabel();
         jLabel1 = new JLabel();
         jPanel6 = new JPanel();
-        customButton5 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
-        customButton4 = new frameutil.CustomButton();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
-        customButton3 = new frameutil.CustomButton();
-        customButton7 = new frameutil.CustomButton();
-        customButton8 = new frameutil.CustomButton();
+        customButton5 = new CustomButton();
+        customButton6 = new CustomButton();
+        customButton4 = new CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
+        customButton3 = new CustomButton();
+        customButton7 = new CustomButton();
+        customButton8 = new CustomButton();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -568,14 +569,14 @@ public class App extends JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private JLabel boxLabel;
     private JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomButton customButton7;
-    private frameutil.CustomButton customButton8;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomButton customButton7;
+    private CustomButton customButton8;
     private JLabel jLabel1;
     private JPanel jPanel1;
     private JPanel jPanel6;

@@ -1,13 +1,8 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.util.ColorSetter;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.util.*;
 
 import java.awt.event.ActionListener;
 import java.awt.geom.RoundRectangle2D;
@@ -28,6 +23,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.TableModel;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 import net.sf.jasperreports.engine.JREmptyDataSource;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
@@ -326,24 +322,24 @@ public class StorageManage extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        comboBox1 = new frameutil.ComboBox<>();
+        comboBox1 = new ComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
+        textF1 = new TextF();;
         jLabel4 = new javax.swing.JLabel();
-        comboBox2 = new frameutil.ComboBox<>();
-        customButton1 = new frameutil.CustomButton();
-        customButton3 = new frameutil.CustomButton();
+        comboBox2 = new ComboBox<>();
+        customButton1 = new CustomButton();
+        customButton3 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
+        customTable1 = new CustomTable();
         jPanel4 = new javax.swing.JPanel();
-        textF2 = new frameutil.TextF();
+        textF2 = new TextF();;
         jLabel5 = new javax.swing.JLabel();
-        customButton2 = new frameutil.CustomButton();
-        textF3 = new frameutil.TextF();
+        customButton2 = new CustomButton();
+        textF3 = new TextF();;
         jLabel6 = new javax.swing.JLabel();
-        foodMenuBar1 = new frameutil.FoodMenuBar();
+        foodMenuBar1 = new FoodMenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -463,7 +459,7 @@ public class StorageManage extends javax.swing.JFrame {
         });
 
         customButton1.setText("Clear");
-        customButton1.setStyle(frameutil.CustomButton.ButtonStyle.DESTRUCTIVE);
+        customButton1.setStyle(CustomButton.ButtonStyle.DESTRUCTIVE);
         customButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 customButton1ActionPerformed(evt);
@@ -567,7 +563,7 @@ public class StorageManage extends javax.swing.JFrame {
         jLabel5.setText("Update Qty");
 
         customButton2.setText("Update Qty");
-        customButton2.setStyle(frameutil.CustomButton.ButtonStyle.DESTRUCTIVE);
+        customButton2.setStyle(CustomButton.ButtonStyle.DESTRUCTIVE);
         customButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 customButton2ActionPerformed(evt);
@@ -933,13 +929,13 @@ public class StorageManage extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomTable customTable1;
-    private frameutil.FoodMenuBar foodMenuBar1;
+    private ComboBox<String> comboBox1;
+    private ComboBox<String> comboBox2;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomTable customTable1;
+    private FoodMenuBar foodMenuBar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -955,8 +951,8 @@ public class StorageManage extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF2;
-    private frameutil.TextF textF3;
+    private TextF textF1;
+    private TextF textF2;
+    private TextF textF3;
     // End of variables declaration//GEN-END:variables
 }

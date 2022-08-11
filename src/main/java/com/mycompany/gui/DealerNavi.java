@@ -1,10 +1,8 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.util.CreateObject;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
 import com.mycompany.gui.employee.Supplier;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -16,6 +14,10 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import com.mycompany.model.MySql;
+import com.mycompany.util.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -142,11 +144,11 @@ public class DealerNavi extends javax.swing.JFrame {
         miniLabel = new javax.swing.JLabel();
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        menuBar1 = new frameutil.MenuBar();
+        menuBar1 = new MenuBar();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
-        customButton3 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
+        customButton3 = new CustomButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -487,13 +489,13 @@ public class DealerNavi extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;

@@ -1,12 +1,11 @@
 package com.mycompany.gui.employee;
 
+import com.mycompany.frameutil.*;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.util.LoadSubTypes;
 import com.mycompany.util.LoadTables;
 import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.ComboBox;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -23,6 +22,7 @@ import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -527,25 +527,25 @@ public class EmployeeT extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        customTable2 = new frameutil.CustomTable();
-        customButton2 = new frameutil.CustomButton();
+        customTable2 = new CustomTable();
+        customButton2 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton3 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
+        customButton3 = new CustomButton();
         jPanel5 = new javax.swing.JPanel();
-        textF1 = new frameutil.TextF();
+        textF1 = new TextF();;
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        textF2 = new frameutil.TextF();
+        textF2 = new TextF();;
         jLabel4 = new javax.swing.JLabel();
-        textF3 = new frameutil.TextF();
+        textF3 = new TextF();;
         jLabel5 = new javax.swing.JLabel();
-        comboBox2 = new frameutil.ComboBox<>();
+        comboBox2 = new ComboBox<>();
         jPanel4 = new javax.swing.JPanel();
-        customButton4 = new frameutil.CustomButton();
+        customButton4 = new CustomButton();
         jPanel6 = new javax.swing.JPanel();
-        comboBox1 = new frameutil.ComboBox<>();
-        employeeMenuBar1 = new frameutil.EmployeeMenuBar();
+        comboBox1 = new ComboBox<>();
+        employeeMenuBar1 = new EmployeeMenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -736,7 +736,7 @@ public class EmployeeT extends javax.swing.JFrame {
         jPanel4.setLayout(new java.awt.CardLayout());
 
         customButton4.setText("Clear");
-        customButton4.setStyle(frameutil.CustomButton.ButtonStyle.SECONDARY);
+        customButton4.setStyle(CustomButton.ButtonStyle.SECONDARY);
         customButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 customButton4ActionPerformed(evt);
@@ -1060,14 +1060,14 @@ public class EmployeeT extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomTable customTable2;
-    private frameutil.EmployeeMenuBar employeeMenuBar1;
+    private ComboBox<String> comboBox1;
+    private ComboBox<String> comboBox2;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomTable customTable2;
+    private EmployeeMenuBar employeeMenuBar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -1084,8 +1084,8 @@ public class EmployeeT extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF2;
-    private frameutil.TextF textF3;
+    private TextF textF1;
+    private TextF textF2;
+    private TextF textF3;
     // End of variables declaration//GEN-END:variables
 }

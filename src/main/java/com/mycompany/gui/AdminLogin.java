@@ -1,10 +1,9 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.util.CreateObject;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+
 import java.awt.Color;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -16,6 +15,10 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import com.mycompany.model.MySql;
+import com.mycompany.util.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.view.frameutilswingcomponents.TextF;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -134,8 +137,8 @@ public class AdminLogin extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
-        customButton1 = new frameutil.CustomButton();
+        textF1 = new TextF();;
+        customButton1 = new CustomButton();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jPasswordField1 = new javax.swing.JPasswordField();
@@ -455,7 +458,7 @@ public class AdminLogin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
+    private CustomButton customButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
@@ -465,6 +468,6 @@ public class AdminLogin extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
+    private TextF textF1;
     // End of variables declaration//GEN-END:variables
 }

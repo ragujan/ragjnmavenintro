@@ -1,14 +1,10 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
 import com.mycompany.gui.employee.Supplier;
-import com.mycompany.util.ColorSetter;
-import com.mycompany.util.CreateObject;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.util.*;
+
 import java.awt.Component;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -25,6 +21,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -244,14 +241,14 @@ public class FRNView extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        textF1 = new frameutil.TextF();
-        textF2 = new frameutil.TextF();
-        customButton2 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
+        textF1 = new TextF();;
+        textF2 = new TextF();;
+        customButton2 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        foodMenuBar1 = new frameutil.FoodMenuBar();
+        customTable1 = new CustomTable();
+        foodMenuBar1 = new FoodMenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -625,10 +622,10 @@ public class FRNView extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomTable customTable1;
-    private frameutil.FoodMenuBar foodMenuBar1;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomTable customTable1;
+    private FoodMenuBar foodMenuBar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -638,7 +635,7 @@ public class FRNView extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    public frameutil.TextF textF1;
-    public frameutil.TextF textF2;
+    public TextF textF1;
+    public TextF textF2;
     // End of variables declaration//GEN-END:variables
 }

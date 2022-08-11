@@ -1,10 +1,11 @@
 package com.mycompany.gui;
 
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
 import com.mycompany.gui.employee.Chef;
 import com.mycompany.gui.employee.Supplier;
 import com.mycompany.util.CreateObject;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.frameutil.MainTheme;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -142,14 +143,14 @@ public class Home extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
-        customButton5 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
-        customButton4 = new frameutil.CustomButton();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
-        customButton3 = new frameutil.CustomButton();
-        customButton7 = new frameutil.CustomButton();
-        customButton8 = new frameutil.CustomButton();
+        customButton5 = new CustomButton();
+        customButton6 = new CustomButton();
+        customButton4 = new CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
+        customButton3 = new CustomButton();
+        customButton7 = new CustomButton();
+        customButton8 = new CustomButton();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -566,14 +567,14 @@ public class Home extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomButton customButton7;
-    private frameutil.CustomButton customButton8;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomButton customButton7;
+    private CustomButton customButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel6;

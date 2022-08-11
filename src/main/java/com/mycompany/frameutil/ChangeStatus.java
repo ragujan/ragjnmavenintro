@@ -5,6 +5,9 @@
 package com.mycompany.frameutil;
 
 import com.mycompany.util.LoadSubTypes;
+import com.mycompany.view.frameutilswingcomponents.ComboBox;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
 
 import java.awt.geom.RoundRectangle2D;
 
@@ -70,9 +73,9 @@ public abstract class ChangeStatus extends javax.swing.JDialog {
         roundedPanel2 = new RoundedPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
-        statusBox = new frameutil.ComboBox<>();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
+        statusBox = new ComboBox<>();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -281,13 +284,13 @@ public abstract class ChangeStatus extends javax.swing.JDialog {
 	}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel2;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    public frameutil.ComboBox<String> statusBox;
+    public ComboBox<String> statusBox;
     // End of variables declaration//GEN-END:variables
 }

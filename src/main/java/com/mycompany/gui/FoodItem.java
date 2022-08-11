@@ -1,16 +1,7 @@
 package com.mycompany.gui;
 
-import com.mycompany.util.IdCheck;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.util.SetEmptyItems;
-import com.mycompany.util.TypeIds;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
-import com.mycompany.util.PanelRemover;
+import com.mycompany.frameutil.*;
+import com.mycompany.util.*;
 
 import java.awt.geom.RoundRectangle2D;
 import java.util.ArrayList;
@@ -21,6 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -344,34 +336,34 @@ public class FoodItem extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
-        textF2 = new frameutil.TextF();
+        textF2 = new TextF();;
         jLabel5 = new javax.swing.JLabel();
-        comboBox3 = new frameutil.ComboBox<>();
+        comboBox3 = new ComboBox<>();
         jLabel6 = new javax.swing.JLabel();
-        comboBox4 = new frameutil.ComboBox<>();
+        comboBox4 = new ComboBox<>();
         jLabel7 = new javax.swing.JLabel();
-        customButton5 = new frameutil.CustomButton();
-        comboBox5 = new frameutil.ComboBox<>();
-        customButton7 = new frameutil.CustomButton();
+        customButton5 = new CustomButton();
+        comboBox5 = new ComboBox<>();
+        customButton7 = new CustomButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
-        comboBox1 = new frameutil.ComboBox<>();
+        textF1 = new TextF();;
+        comboBox1 = new ComboBox<>();
         jLabel4 = new javax.swing.JLabel();
-        comboBox2 = new frameutil.ComboBox<>();
+        comboBox2 = new ComboBox<>();
         jPanel6 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
         jPanel7 = new javax.swing.JPanel();
-        customButton3 = new frameutil.CustomButton();
-        customButton4 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
-        customButton8 = new frameutil.CustomButton();
+        customButton3 = new CustomButton();
+        customButton4 = new CustomButton();
+        customButton6 = new CustomButton();
+        customButton8 = new CustomButton();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        foodMenuBar1 = new frameutil.FoodMenuBar();
+        customTable1 = new CustomTable();
+        foodMenuBar1 = new FoodMenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -1020,21 +1012,21 @@ public class FoodItem extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    public frameutil.ComboBox<String> comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.ComboBox<String> comboBox3;
-    private frameutil.ComboBox<String> comboBox4;
-    private frameutil.ComboBox<String> comboBox5;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomButton customButton7;
-    private frameutil.CustomButton customButton8;
-    private frameutil.CustomTable customTable1;
-    private frameutil.FoodMenuBar foodMenuBar1;
+    public ComboBox<String> comboBox1;
+    private ComboBox<String> comboBox2;
+    private ComboBox<String> comboBox3;
+    private ComboBox<String> comboBox4;
+    private ComboBox<String> comboBox5;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomButton customButton7;
+    private CustomButton customButton8;
+    private CustomTable customTable1;
+    private FoodMenuBar foodMenuBar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -1054,7 +1046,7 @@ public class FoodItem extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF2;
+    private TextF textF1;
+    private TextF textF2;
     // End of variables declaration//GEN-END:variables
 }

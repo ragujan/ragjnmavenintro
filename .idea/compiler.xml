@@ -10,6 +10,7 @@
         <module name="ragjnmavenintro3" />
         <module name="ragjnmavenintro4" />
         <module name="ragjnmavenintro6 .1copy" />
+        <module name="ragjnmavenintro6 .12" />
         <module name="ragjnmavenintro6" />
       </profile>
     </annotationProcessing>

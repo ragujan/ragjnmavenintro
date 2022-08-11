@@ -1,10 +1,13 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.util.LoadTables;
 import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.view.frameutilswingcomponents.CustomTable;
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+
 import java.awt.geom.RoundRectangle2D;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -174,8 +177,8 @@ public class ViewOrderItems extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        menuBar1 = new frameutil.MenuBar();
+        customTable1 = new CustomTable();
+        menuBar1 = new MenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -548,13 +551,13 @@ public class ViewOrderItems extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomTable customTable1;
+    private CustomTable customTable1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;

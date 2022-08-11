@@ -1,15 +1,9 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.util.CreateObject;
-import com.mycompany.util.GetIdSingle;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.util.TableListenerAbs;
-import com.mycompany.frameutil.ChangeStatus;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.util.*;
+
 import java.awt.geom.RoundRectangle2D;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -23,6 +17,7 @@ import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DocumentFilter;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -359,17 +354,17 @@ public class OnGoingOrder extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        comboBox1 = new frameutil.ComboBox();
+        comboBox1 = new ComboBox();
         jLabel2 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
+        textF1 = new TextF();;
         jLabel3 = new javax.swing.JLabel();
-        textF2 = new frameutil.TextF();
-        customButton1 = new frameutil.CustomButton();
-        customButton2 = new frameutil.CustomButton();
+        textF2 = new TextF();;
+        customButton1 = new CustomButton();
+        customButton2 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        menuBar1 = new frameutil.MenuBar();
+        customTable1 = new CustomTable();
+        menuBar1 = new MenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -824,10 +819,10 @@ public class OnGoingOrder extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox comboBox1;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomTable customTable1;
+    private ComboBox comboBox1;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomTable customTable1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -837,11 +832,11 @@ public class OnGoingOrder extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF2;
+    private TextF textF1;
+    private TextF textF2;
     // End of variables declaration//GEN-END:variables
 }

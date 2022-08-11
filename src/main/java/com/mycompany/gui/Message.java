@@ -1,8 +1,10 @@
 package com.mycompany.gui;
 
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.util.ImageSizer;
 import com.mycompany.frameutil.MainTheme;
+
 import java.awt.Color;
 import java.awt.geom.RoundRectangle2D;
 import javax.swing.ImageIcon;
@@ -78,7 +80,7 @@ public class Message extends javax.swing.JFrame {
                 jLabel1 = new javax.swing.JLabel();
                 jPanel2 = new javax.swing.JPanel();
                 jLabel2 = new javax.swing.JLabel();
-                customButton1 = new frameutil.CustomButton();
+                customButton1 = new CustomButton();
 
                 jToggleButton1.setText("jToggleButton1");
 
@@ -288,7 +290,7 @@ public class Message extends javax.swing.JFrame {
 	}
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
-        private frameutil.CustomButton customButton1;
+        private CustomButton customButton1;
         private javax.swing.JLabel jLabel1;
         private javax.swing.JLabel jLabel2;
         private javax.swing.JPanel jPanel1;

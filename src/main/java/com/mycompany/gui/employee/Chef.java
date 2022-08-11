@@ -1,13 +1,7 @@
 package com.mycompany.gui.employee;
 
-import com.mycompany.util.CreateObject;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.frameutil.*;
+import com.mycompany.util.*;
 import com.mycompany.gui.Message;
 
 import java.awt.geom.RoundRectangle2D;
@@ -21,6 +15,7 @@ import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -282,27 +277,27 @@ public class Chef extends javax.swing.JFrame {
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
-        textF3 = new frameutil.TextF();
-        customButton3 = new frameutil.CustomButton();
+        textF1 = new TextF();;
+        textF3 = new TextF();;
+        customButton3 = new CustomButton();
         jPanel4 = new javax.swing.JPanel();
-        customButton2 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
+        customButton2 = new CustomButton();
+        customButton6 = new CustomButton();
         jLabel5 = new javax.swing.JLabel();
-        comboBox1 = new frameutil.ComboBox<>();
-        comboBox2 = new frameutil.ComboBox<>();
+        comboBox1 = new ComboBox<>();
+        comboBox2 = new ComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
-        customButton4 = new frameutil.CustomButton();
-        customButton5 = new frameutil.CustomButton();
+        customButton4 = new CustomButton();
+        customButton5 = new CustomButton();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        employeeMenuBar1 = new frameutil.EmployeeMenuBar();
+        customTable1 = new CustomTable();
+        employeeMenuBar1 = new EmployeeMenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -809,16 +804,16 @@ public class Chef extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomTable customTable1;
-    private frameutil.EmployeeMenuBar employeeMenuBar1;
+    private ComboBox<String> comboBox1;
+    private ComboBox<String> comboBox2;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomTable customTable1;
+    private EmployeeMenuBar employeeMenuBar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
@@ -835,7 +830,7 @@ public class Chef extends javax.swing.JFrame {
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    public frameutil.TextF textF1;
-    public frameutil.TextF textF3;
+    public TextF textF1;
+    public TextF textF3;
     // End of variables declaration//GEN-END:variables
 }

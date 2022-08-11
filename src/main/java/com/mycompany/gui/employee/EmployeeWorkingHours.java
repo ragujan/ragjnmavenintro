@@ -1,16 +1,7 @@
 package com.mycompany.gui.employee;
 
-import com.mycompany.util.CreateObject;
-import com.mycompany.util.FilterDocRagRegex;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.util.SetEmptyItems;
-import com.mycompany.frameutil.ComboBox;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+import com.mycompany.frameutil.*;
+import com.mycompany.util.*;
 import com.mycompany.gui.Message;
 
 import java.awt.event.ItemListener;
@@ -31,6 +22,7 @@ import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -614,52 +606,52 @@ public class EmployeeWorkingHours extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        customTable2 = new frameutil.CustomTable();
+        customTable2 = new CustomTable();
         jPanel3 = new javax.swing.JPanel();
-        customButton1 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
         jPanel7 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        textF9 = new frameutil.TextF();
-        textF8 = new frameutil.TextF();
-        textF7 = new frameutil.TextF();
-        textF6 = new frameutil.TextF();
+        textF9 = new TextF();;
+        textF8 = new TextF();;
+        textF7 = new TextF();;
+        textF6 = new TextF();;
         jLabel14 = new javax.swing.JLabel();
-        customButton2 = new frameutil.CustomButton();
+        customButton2 = new CustomButton();
         jLabel16 = new javax.swing.JLabel();
-        textF4 = new frameutil.TextF();
+        textF4 = new TextF();;
         jLabel15 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        onHours = new frameutil.ComboBox<>();
-        onMins = new frameutil.ComboBox<>();
-        offHours = new frameutil.ComboBox<>();
-        offMins = new frameutil.ComboBox<>();
+        onHours = new ComboBox<>();
+        onMins = new ComboBox<>();
+        offHours = new ComboBox<>();
+        offMins = new ComboBox<>();
         jDateChooser3 = new com.toedter.calendar.JDateChooser();
         jDateChooser4 = new com.toedter.calendar.JDateChooser();
-        textF5 = new frameutil.TextF();
+        textF5 = new TextF();;
         jPanel9 = new javax.swing.JPanel();
-        textF1 = new frameutil.TextF();
-        textF2 = new frameutil.TextF();
-        textF3 = new frameutil.TextF();
+        textF1 = new TextF();;
+        textF2 = new TextF();;
+        textF3 = new TextF();;
         jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
-        customButton4 = new frameutil.CustomButton();
-        comboBox2 = new frameutil.ComboBox<>();
+        customButton4 = new CustomButton();
+        comboBox2 = new ComboBox<>();
         jLabel5 = new javax.swing.JLabel();
-        textF10 = new frameutil.TextF();
+        textF10 = new TextF();;
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        textF11 = new frameutil.TextF();
+        textF11 = new TextF();;
         jDateChooser2 = new com.toedter.calendar.JDateChooser();
-        comboBox1 = new frameutil.ComboBox<>();
+        comboBox1 = new ComboBox<>();
         jPanel11 = new javax.swing.JPanel();
-        customButton3 = new frameutil.CustomButton();
-        customButton5 = new frameutil.CustomButton();
-        employeeMenuBar1 = new frameutil.EmployeeMenuBar();
+        customButton3 = new CustomButton();
+        customButton5 = new CustomButton();
+        employeeMenuBar1 = new EmployeeMenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -988,7 +980,7 @@ public class EmployeeWorkingHours extends javax.swing.JFrame {
         jPanel4.setLayout(new java.awt.CardLayout());
 
         customButton4.setText("Clear");
-        customButton4.setStyle(frameutil.CustomButton.ButtonStyle.SECONDARY);
+        customButton4.setStyle(CustomButton.ButtonStyle.SECONDARY);
         customButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 customButton4ActionPerformed(evt);
@@ -1607,15 +1599,15 @@ public class EmployeeWorkingHours extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.ComboBox<String> comboBox2;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
-    private frameutil.CustomButton customButton3;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomTable customTable2;
-    private frameutil.EmployeeMenuBar employeeMenuBar1;
+    private ComboBox<String> comboBox1;
+    private ComboBox<String> comboBox2;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
+    private CustomButton customButton3;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomTable customTable2;
+    private EmployeeMenuBar employeeMenuBar1;
     private com.toedter.calendar.JDateChooser jDateChooser1;
     private com.toedter.calendar.JDateChooser jDateChooser2;
     private com.toedter.calendar.JDateChooser jDateChooser3;
@@ -1643,22 +1635,22 @@ public class EmployeeWorkingHours extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel miniLabel;
-    private frameutil.ComboBox<String> offHours;
-    private frameutil.ComboBox<String> offMins;
-    private frameutil.ComboBox<String> onHours;
-    private frameutil.ComboBox<String> onMins;
+    private ComboBox<String> offHours;
+    private ComboBox<String> offMins;
+    private ComboBox<String> onHours;
+    private ComboBox<String> onMins;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF10;
-    private frameutil.TextF textF11;
-    private frameutil.TextF textF2;
-    private frameutil.TextF textF3;
-    private frameutil.TextF textF4;
-    private frameutil.TextF textF5;
-    public frameutil.TextF textF6;
-    public frameutil.TextF textF7;
-    public frameutil.TextF textF8;
-    public frameutil.TextF textF9;
+    private TextF textF1;
+    private TextF textF10;
+    private TextF textF11;
+    private TextF textF2;
+    private TextF textF3;
+    private TextF textF4;
+    private TextF textF5;
+    public TextF textF6;
+    public TextF textF7;
+    public TextF textF8;
+    public TextF textF9;
     // End of variables declaration//GEN-END:variables
 }

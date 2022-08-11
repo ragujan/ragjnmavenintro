@@ -4,10 +4,10 @@
  */
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.util.LoadTables;
 import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.MainTheme;
-import com.mycompany.frameutil.RoundedPanel;
+
 import java.awt.Color;
 import java.awt.Frame;
 import java.awt.geom.RoundRectangle2D;
@@ -17,6 +17,10 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.CustomTable;
+import com.mycompany.view.frameutilswingcomponents.FoodMenuBar;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.view.frameutilswingcomponents.TextF;
 
 /**
  *
@@ -151,17 +155,17 @@ public class FRNITEMVIEW extends javax.swing.JDialog {
         jPanel2 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        textF1 = new frameutil.TextF();
-        textF2 = new frameutil.TextF();
+        textF1 = new TextF();;
+        textF2 = new TextF();;
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        textF3 = new frameutil.TextF();
-        textF4 = new frameutil.TextF();
+        textF3 = new TextF();;
+        textF4 = new TextF();;
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        foodMenuBar2 = new frameutil.FoodMenuBar();
+        customTable1 = new CustomTable();
+        foodMenuBar2 = new FoodMenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -482,8 +486,8 @@ public class FRNITEMVIEW extends javax.swing.JDialog {
 	}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private frameutil.CustomTable customTable1;
-    private frameutil.FoodMenuBar foodMenuBar2;
+    private CustomTable customTable1;
+    private FoodMenuBar foodMenuBar2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -496,9 +500,9 @@ public class FRNITEMVIEW extends javax.swing.JDialog {
     private javax.swing.JScrollPane jScrollPane1;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
-    private frameutil.TextF textF2;
-    private frameutil.TextF textF3;
-    private frameutil.TextF textF4;
+    private TextF textF1;
+    private TextF textF2;
+    private TextF textF3;
+    private TextF textF4;
     // End of variables declaration//GEN-END:variables
 }

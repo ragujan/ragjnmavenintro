@@ -4,15 +4,8 @@
  */
 package com.mycompany.gui;
 
-import com.mycompany.util.GetIdSingle;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.SearchTable;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
-import com.mycompany.frameutil.OptionMessageLegit;
-import com.mycompany.frameutil.RoundedPanel;
+import com.mycompany.frameutil.*;
+import com.mycompany.util.*;
 
 import java.awt.Color;
 import java.awt.geom.RoundRectangle2D;
@@ -33,6 +26,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import com.mycompany.model.MySql;
+import com.mycompany.view.frameutilswingcomponents.*;
 import net.sf.jasperreports.engine.JREmptyDataSource;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
@@ -329,15 +323,15 @@ import net.sf.jasperreports.view.JasperViewer;
         closeLabel = new javax.swing.JLabel();
         miniLabel = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        textF1 = new frameutil.TextF();
+        textF1 = new TextF();;
         jLabel5 = new javax.swing.JLabel();
-        comboBox1 = new frameutil.ComboBox<>();
+        comboBox1 = new ComboBox<>();
         jLabel28 = new javax.swing.JLabel();
-        customButton1 = new frameutil.CustomButton();
+        customButton1 = new CustomButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
-        menuBar1 = new frameutil.MenuBar();
+        customTable1 = new CustomTable();
+        menuBar1 = new MenuBar();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
@@ -612,9 +606,9 @@ import net.sf.jasperreports.view.JasperViewer;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox1;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomTable customTable1;
+    private ComboBox<String> comboBox1;
+    private CustomButton customButton1;
+    private CustomTable customTable1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel5;
@@ -622,10 +616,10 @@ import net.sf.jasperreports.view.JasperViewer;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF1;
+    private TextF textF1;
     // End of variables declaration//GEN-END:variables
 }

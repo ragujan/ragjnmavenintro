@@ -1,22 +1,9 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.util.ColorSetter;
-import com.mycompany.util.FilterDocRagRegex;
-import com.mycompany.util.GetIdSingle;
-import com.mycompany.util.IdCheck;
-import com.mycompany.util.InsertTable;
-import com.mycompany.util.LoadSubTypes;
-import com.mycompany.util.LoadTables;
-import com.mycompany.util.PanelRemover;
-import com.mycompany.util.SearchTable;
-import com.mycompany.util.SetEmptyItems;
-import com.mycompany.util.TableListenerAbs;
-import com.mycompany.frameutil.DescriptionBox;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
-import com.mycompany.frameutil.ShortMessageBox;
+import com.mycompany.util.*;
+
 import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.geom.RoundRectangle2D;
@@ -33,7 +20,7 @@ import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
 import com.mycompany.model.MySql;
-import frameutil.*;
+import com.mycompany.view.frameutilswingcomponents.*;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -493,38 +480,38 @@ public class AddMenu extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        customTable1 = new frameutil.CustomTable();
+        customTable1 = new CustomTable();
         jPanel3 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
-        comboBox5 = new frameutil.ComboBox<>();
-        customButton9 = new frameutil.CustomButton();
+        comboBox5 = new ComboBox<>();
+        customButton9 = new CustomButton();
         jLabel12 = new javax.swing.JLabel();
-        comboBox6 = new frameutil.ComboBox<>();
-        textF6 = new frameutil.TextF();
+        comboBox6 = new ComboBox<>();
+        textF6 = new TextF();;
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        textF7 = new frameutil.TextF();
+        textF7 = new TextF();;
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        customButton10 = new frameutil.CustomButton();
-        customButton12 = new frameutil.CustomButton();
-        comboBox7 = new frameutil.ComboBox<>();
+        customButton10 = new CustomButton();
+        customButton12 = new CustomButton();
+        comboBox7 = new ComboBox<>();
         jPanel4 = new javax.swing.JPanel();
-        comboBox3 = new frameutil.ComboBox<>();
-        customButton4 = new frameutil.CustomButton();
+        comboBox3 = new ComboBox<>();
+        customButton4 = new CustomButton();
         jLabel7 = new javax.swing.JLabel();
-        comboBox4 = new frameutil.ComboBox<>();
-        textF4 = new frameutil.TextF();
+        comboBox4 = new ComboBox<>();
+        textF4 = new TextF();;
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        textF5 = new frameutil.TextF();
+        textF5 = new TextF();;
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        customButton5 = new frameutil.CustomButton();
-        customButton6 = new frameutil.CustomButton();
-        customButton7 = new frameutil.CustomButton();
-        customButton8 = new frameutil.CustomButton();
-        menuBar1 = new frameutil.MenuBar();
+        customButton5 = new CustomButton();
+        customButton6 = new CustomButton();
+        customButton7 = new CustomButton();
+        customButton8 = new CustomButton();
+        menuBar1 = new MenuBar();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -1206,20 +1193,20 @@ public class AddMenu extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.ComboBox<String> comboBox3;
-    private frameutil.ComboBox<String> comboBox4;
-    private frameutil.ComboBox<String> comboBox5;
-    private frameutil.ComboBox<String> comboBox6;
-    private frameutil.ComboBox<String> comboBox7;
-    private frameutil.CustomButton customButton10;
-    private frameutil.CustomButton customButton12;
-    private frameutil.CustomButton customButton4;
-    private frameutil.CustomButton customButton5;
-    private frameutil.CustomButton customButton6;
-    private frameutil.CustomButton customButton7;
-    private frameutil.CustomButton customButton8;
-    private frameutil.CustomButton customButton9;
-    private frameutil.CustomTable customTable1;
+    private ComboBox<String> comboBox3;
+    private ComboBox<String> comboBox4;
+    private ComboBox<String> comboBox5;
+    private ComboBox<String> comboBox6;
+    private ComboBox<String> comboBox7;
+    private CustomButton customButton10;
+    private CustomButton customButton12;
+    private CustomButton customButton4;
+    private CustomButton customButton5;
+    private CustomButton customButton6;
+    private CustomButton customButton7;
+    private CustomButton customButton8;
+    private CustomButton customButton9;
+    private CustomTable customTable1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1238,13 +1225,13 @@ public class AddMenu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JToggleButton jToggleButton1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private frameutil.TextF textF4;
-    private frameutil.TextF textF5;
-    private frameutil.TextF textF6;
-    private frameutil.TextF textF7;
+    private TextF textF4;
+    private TextF textF5;
+    private TextF textF6;
+    private TextF textF7;
     // End of variables declaration//GEN-END:variables
 }

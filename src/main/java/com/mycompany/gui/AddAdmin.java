@@ -1,9 +1,8 @@
 package com.mycompany.gui;
 
+import com.mycompany.frameutil.*;
 import com.mycompany.gui.employee.Chef;
-import com.mycompany.frameutil.RoundedPanel;
-import com.mycompany.frameutil.ImageSizer;
-import com.mycompany.frameutil.MainTheme;
+
 import java.awt.Color;
 import java.awt.geom.RoundRectangle2D;
 import java.sql.ResultSet;
@@ -15,6 +14,11 @@ import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import com.mycompany.model.MySql;
+import com.mycompany.util.ImageSizer;
+import com.mycompany.view.frameutilswingcomponents.CustomButton;
+import com.mycompany.view.frameutilswingcomponents.MenuBar;
+import com.mycompany.view.frameutilswingcomponents.RoundedPanel;
+import com.mycompany.view.frameutilswingcomponents.TextF;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -158,14 +162,14 @@ public class AddAdmin extends javax.swing.JFrame {
         miniLabel = new javax.swing.JLabel();
         boxLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        menuBar1 = new frameutil.MenuBar();
+        menuBar1 = new MenuBar();
         jPanel2 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
-        customButton1 = new frameutil.CustomButton();
-        textF1 = new com.mycompany.frameutil.TextF();
+        customButton1 = new CustomButton();
+        textF1 = new TextF();
         jPasswordField1 = new javax.swing.JPasswordField();
         jLabel17 = new javax.swing.JLabel();
-        customButton2 = new frameutil.CustomButton();
+        customButton2 = new CustomButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -538,18 +542,18 @@ public class AddAdmin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel boxLabel;
     private javax.swing.JLabel closeLabel;
-    private frameutil.CustomButton customButton1;
-    private frameutil.CustomButton customButton2;
+    private CustomButton customButton1;
+    private CustomButton customButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
-    private frameutil.MenuBar menuBar1;
+    private MenuBar menuBar1;
     private javax.swing.JLabel miniLabel;
     private RoundedPanel roundedPanel1;
     private RoundedPanel roundedPanel2;
-    private com.mycompany.frameutil.TextF textF1;
+    private TextF textF1;
     // End of variables declaration//GEN-END:variables
 }
