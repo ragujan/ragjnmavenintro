@@ -4,7 +4,7 @@
  */
 package com.mycompany.util;
 
-import com.mycompany.gui.FoodNavi;
+import com.mycompany.view.gui.FoodNavi;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;
